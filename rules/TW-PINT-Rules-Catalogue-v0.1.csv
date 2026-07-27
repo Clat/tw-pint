@@ -1,4 +1,4 @@
-Rule ID,Group,Rule,Severity,Business Term,Test
+Identifier,Context,Message,Severity,Business Term,Test
 TW-IBR-001,Invoice,Specification Identifier SHALL exist.,Fatal,BT-24,exists(cbc:CustomizationID)
 TW-IBR-002,Invoice,Specification Identifier SHALL be urn:peppol:pint:billing-1@tw-1.,Fatal,BT-24,cbc:CustomizationID = 'urn:peppol:pint:billing-1@tw-1'
 TW-IBR-003,Invoice,Customization Identifier SHALL exist.,Fatal,BT-24,exists(cbc:CustomizationID)
